@@ -1,0 +1,81 @@
+<?php
+
+/**
+ * Send SMS Controller
+ * Manages and routes all outgoing SMS from application
+ */
+
+class ResponseController extends Controller {
+	
+	function __construct() {
+		$this->template = new Template();
+	}
+    
+    function index(){
+        
+        // Check if smsc is set else use default set for Profile
+        $shortcode = isset($_GET['shortcode']) ? $_GET['shortcode'] : exit("Error! Incomplete Parameter: Shortcode not Present");
+        $msisdn = isset($_GET['msisdn']) ? $_GET['msisdn'] : exit("Error! Incomplete Parameter: MSISDN");
+        $timestamp = isset($_GET['timestamp']) ? $_GET['timestamp'] : '';
+        $msg = isset($_GET['msg']) ? $_GET['msg'] : '';
+        $network = isset($_GET['network']) ? $_GET['network'] : '';
+
+
+        $r = new ReceivedSms();
+        $r->setShortcode($shortcode);
+        $r->setMsisdn($msisdn);
+        // $r->setTimestamp($timestamp);
+        $r->setMsg($msg);
+
+        $r->save();
+
+        $param = array('shortcode' => $shortcode, 'MSSID' => $msisdn, 'message' => $msg, 'time' => $timestamp, 'network'=>$network );
+        $this->route($param);
+    }
+
+    function route(&$_param){
+        
+        // This routes to Internal Applications 
+//         $params = http_build_query($_param);
+$params = $_param;
+        // echo $param;
+        
+        $ch = curl_init(ROUTE_URL);
+
+        curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+        
+        curl_setopt($ch, CURLOPT_POST, 1);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, $params);
+        
+        // Will return the response, if false Log for retry
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        
+        $retval = curl_exec($ch);
+        $retcode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+        
+        curl_close($ch);
+        
+        if (200 == $retcode) {
+            // All's well - Log to received 
+            $fh = fopen("successful.log", 'a') or die("can't open file" . $myFile);
+            $stringData = $params . "\n";
+            fwrite($fh, $stringData);
+        
+            fclose($fh);
+            
+        } else {
+            // Log for retry
+
+            $fh = fopen("failed.csv", 'a') or die("can't open file" . $myFile);
+            $stringData = $params . "\n";
+            fwrite($fh, $stringData);
+        
+            fclose($fh);
+        }
+            
+            
+    }
+   
+}
+
+?>

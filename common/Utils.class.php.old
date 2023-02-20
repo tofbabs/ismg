@@ -1,0 +1,28 @@
+<?php
+
+/*
+	Utility operation e.g. Debug to Console, 
+*/
+
+class Utils{
+
+	static function debug_to_console( $data ) {
+
+	    if ( is_array( $data ) )
+	        $output = "<script>console.log( 'Debug Objects: " . implode( ',', $data) . "' );</script>";
+	    
+	    else
+	        $output = "<script>console.log( 'Debug Objects: " . $data . "' );</script>";
+
+	    echo $output;
+	}
+	
+	static function sanitize($dirty){
+		 $cleared = filter_var($dirty,FILTER_SANITIZE_SPECIAL_CHARS);
+		 
+    	 return trim($cleared);
+	}
+
+
+}
+

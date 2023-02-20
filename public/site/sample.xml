@@ -1,0 +1,229 @@
+<?xml version="1.0"?>
+<gateway>
+<version>Kannel bearerbox version `svn-r5138'
+</version>
+<status>dead, uptime 0d 0h 0m 43s</status>
+	<wdp>
+		<received><total>0</total><queued>0</queued></received>
+		<sent><total>0</total><queued>0</queued></sent>
+	</wdp>
+	<sms>
+		<received><total>0</total><queued>0</queued></received>
+		<sent><total>0</total><queued>203679</queued></sent>
+		<storesize>205020</storesize>
+		<inbound>0.00,0.00,0.00</inbound>
+		<outbound>0.00,0.00,0.00</outbound>
+		</sms>
+	<dlr>
+		<received><total>0</total></received>
+		<sent><total>0</total></sent>
+		<inbound>0.00,0.00,0.00</inbound>
+		<outbound>0.00,0.00,0.00</outbound>
+		<queued>0</queued>
+		<storage>internal</storage>
+	</dlr>
+<boxes>
+	</boxes>
+<smscs><count>10</count>
+	<smsc>
+		<name>SMPP:10.71.128.47:5020/5020:Freesia4:</name>
+		<admin-id>ETISALAT</admin-id>
+		<id>ETISALAT</id>
+		<status>online 42s</status>
+		<failed>0</failed>
+		<queued>162</queued>
+		<sms>
+			<received>0</received>
+			<sent>0</sent>
+			<inbound>0.00,0.00,0.00</inbound>
+			<outbound>0.00,0.00,0.00</outbound>
+		</sms>
+		<dlr>
+			<received>0</received>
+			<sent>0</sent>
+			<inbound>0.00,0.00,0.00</inbound>
+			<outbound>0.00,0.00,0.00</outbound>
+		</dlr>
+	</smsc>
+<smsc>
+		<name>SMPP:10.71.128.47:5020/5020:Freesia4:</name>
+		<admin-id>ETISALAT</admin-id>
+		<id>ETISALAT</id>
+		<status>online 42s</status>
+		<failed>0</failed>
+		<queued>242</queued>
+		<sms>
+			<received>0</received>
+			<sent>0</sent>
+			<inbound>0.00,0.00,0.00</inbound>
+			<outbound>0.00,0.00,0.00</outbound>
+		</sms>
+		<dlr>
+			<received>0</received>
+			<sent>0</sent>
+			<inbound>0.00,0.00,0.00</inbound>
+			<outbound>0.00,0.00,0.00</outbound>
+		</dlr>
+	</smsc>
+<smsc>
+		<name>SMPP:10.71.128.47:5020/5020:Freesia4:</name>
+		<admin-id>ETISALAT</admin-id>
+		<id>ETISALAT</id>
+		<status>online 42s</status>
+		<failed>0</failed>
+		<queued>239</queued>
+		<sms>
+			<received>0</received>
+			<sent>0</sent>
+			<inbound>0.00,0.00,0.00</inbound>
+			<outbound>0.00,0.00,0.00</outbound>
+		</sms>
+		<dlr>
+			<received>0</received>
+			<sent>0</sent>
+			<inbound>0.00,0.00,0.00</inbound>
+			<outbound>0.00,0.00,0.00</outbound>
+		</dlr>
+	</smsc>
+<smsc>
+		<name>SMPP:10.71.128.47:5020/5020:Freesia4:</name>
+		<admin-id>ETISALAT</admin-id>
+		<id>ETISALAT</id>
+		<status>online 42s</status>
+		<failed>0</failed>
+		<queued>155</queued>
+		<sms>
+			<received>0</received>
+			<sent>0</sent>
+			<inbound>0.00,0.00,0.00</inbound>
+			<outbound>0.00,0.00,0.00</outbound>
+		</sms>
+		<dlr>
+			<received>0</received>
+			<sent>0</sent>
+			<inbound>0.00,0.00,0.00</inbound>
+			<outbound>0.00,0.00,0.00</outbound>
+		</dlr>
+	</smsc>
+<smsc>
+		<name>SMPP:10.71.128.47:5020/5020:Freesia4:</name>
+		<admin-id>ETISALAT</admin-id>
+		<id>ETISALAT</id>
+		<status>online 42s</status>
+		<failed>0</failed>
+		<queued>244</queued>
+		<sms>
+			<received>0</received>
+			<sent>0</sent>
+			<inbound>0.00,0.00,0.00</inbound>
+			<outbound>0.00,0.00,0.00</outbound>
+		</sms>
+		<dlr>
+			<received>0</received>
+			<sent>0</sent>
+			<inbound>0.00,0.00,0.00</inbound>
+			<outbound>0.00,0.00,0.00</outbound>
+		</dlr>
+	</smsc>
+<smsc>
+		<name>SMPP:10.71.128.47:5020/5020:Freesia3:</name>
+		<admin-id>ETISALAT_BC</admin-id>
+		<id>ETISALAT_BC</id>
+		<status>dead</status>
+		<failed>0</failed>
+		<queued>0</queued>
+		<sms>
+			<received>0</received>
+			<sent>0</sent>
+			<inbound>0.00,0.00,0.00</inbound>
+			<outbound>0.00,0.00,0.00</outbound>
+		</sms>
+		<dlr>
+			<received>0</received>
+			<sent>0</sent>
+			<inbound>0.00,0.00,0.00</inbound>
+			<outbound>0.00,0.00,0.00</outbound>
+		</dlr>
+	</smsc>
+<smsc>
+		<name>SMPP:10.71.128.47:5020/5020:Freesia3:</name>
+		<admin-id>ETISALAT_BC</admin-id>
+		<id>ETISALAT_BC</id>
+		<status>dead</status>
+		<failed>0</failed>
+		<queued>0</queued>
+		<sms>
+			<received>0</received>
+			<sent>0</sent>
+			<inbound>0.00,0.00,0.00</inbound>
+			<outbound>0.00,0.00,0.00</outbound>
+		</sms>
+		<dlr>
+			<received>0</received>
+			<sent>0</sent>
+			<inbound>0.00,0.00,0.00</inbound>
+			<outbound>0.00,0.00,0.00</outbound>
+		</dlr>
+	</smsc>
+<smsc>
+		<name>SMPP:10.71.128.47:5020/5020:Freesia3:</name>
+		<admin-id>ETISALAT_BC</admin-id>
+		<id>ETISALAT_BC</id>
+		<status>online 42s</status>
+		<failed>0</failed>
+		<queued>303</queued>
+		<sms>
+			<received>0</received>
+			<sent>0</sent>
+			<inbound>0.00,0.00,0.00</inbound>
+			<outbound>0.00,0.00,0.00</outbound>
+		</sms>
+		<dlr>
+			<received>0</received>
+			<sent>0</sent>
+			<inbound>0.00,0.00,0.00</inbound>
+			<outbound>0.00,0.00,0.00</outbound>
+		</dlr>
+	</smsc>
+<smsc>
+		<name>SMPP:10.71.128.47:5020/5020:Freesia3:</name>
+		<admin-id>ETISALAT_BC</admin-id>
+		<id>ETISALAT_BC</id>
+		<status>dead</status>
+		<failed>0</failed>
+		<queued>0</queued>
+		<sms>
+			<received>0</received>
+			<sent>0</sent>
+			<inbound>0.00,0.00,0.00</inbound>
+			<outbound>0.00,0.00,0.00</outbound>
+		</sms>
+		<dlr>
+			<received>0</received>
+			<sent>0</sent>
+			<inbound>0.00,0.00,0.00</inbound>
+			<outbound>0.00,0.00,0.00</outbound>
+		</dlr>
+	</smsc>
+<smsc>
+		<name>SMPP:10.71.128.47:5020/5020:Freesia3:</name>
+		<admin-id>ETISALAT_BC</admin-id>
+		<id>ETISALAT_BC</id>
+		<status>online 42s</status>
+		<failed>0</failed>
+		<queued>122</queued>
+		<sms>
+			<received>0</received>
+			<sent>0</sent>
+			<inbound>0.00,0.00,0.00</inbound>
+			<outbound>0.00,0.00,0.00</outbound>
+		</sms>
+		<dlr>
+			<received>0</received>
+			<sent>0</sent>
+			<inbound>0.00,0.00,0.00</inbound>
+			<outbound>0.00,0.00,0.00</outbound>
+		</dlr>
+	</smsc>
+</smscs>
+</gateway>

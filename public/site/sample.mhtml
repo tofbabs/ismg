@@ -1,0 +1,250 @@
+<gateway>
+<version>Kannel bearerbox version `svn-r5138'.
+Build `Mar 14 2015 16:46:59', compiler `4.4.7 20120313 (Red Hat 4.4.7-4)'.
+System Linux, release 2.6.32-358.14.1.el6.x86_64, version #1 SMP Tue Jul 16=
+ 23:51:20 UTC 2013, machine x86_64.
+Hostname sevas.spexweb.com.ng, IP 72.52.231.28.
+Libxml version 2.7.6.
+Using OpenSSL 1.0.1e-fips 11 Feb 2013.
+Compiled with PostgreSQL 8.4.20.
+Using native malloc.
+</version>
+<status>running, uptime 0d 17h 3m 50s</status>
+	<wdp>
+		<received><total>0</total><queued>0</queued></received>
+		<sent><total>0</total><queued>0</queued></sent>
+	</wdp>
+	<sms>
+		<received><total>16672</total><queued>0</queued></received>
+		<sent><total>526401</total><queued>474</queued></sent>
+		<storesize>387510</storesize>
+		<inbound>0.77,0.72,0.27</inbound>
+		<outbound>18.71,18.61,8.57</outbound>
+		</sms>
+	<dlr>
+		<received><total>303765</total></received>
+		<sent><total>0</total></sent>
+		<inbound>8.47,8.31,4.94</inbound>
+		<outbound>0.00,0.00,0.00</outbound>
+		<queued>0</queued>
+		<storage>internal</storage>
+	</dlr>
+<boxes>
+	<box>
+		<type>smsbox</type>
+		<id>thesmsbox</id>
+		<ip>127.0.0.1</ip>
+		<queue>0</queue>
+		<status>on-line 0d 17h 2m 35s</status>
+		<ssl>no</ssl>
+	</box><box>
+		<type>smsbox</type>
+		<id>thesmsbox</id>
+		<ip>127.0.0.1</ip>
+		<queue>0</queue>
+		<status>on-line 0d 17h 2m 29s</status>
+		<ssl>no</ssl>
+	</box></boxes>
+<smscs><count>10</count>
+	<smsc>
+		<name>SMPP:10.71.128.47:5020/5020:Freesia4:</name>
+		<admin-id>ETISALAT</admin-id>
+		<id>ETISALAT</id>
+		<status>online 2145s</status>
+		<failed>250</failed>
+		<queued>36243</queued>
+		<sms>
+			<received>182</received>
+			<sent>1444</sent>
+			<inbound>0.02,0.01,0.00</inbound>
+			<outbound>0.06,0.05,0.02</outbound>
+		</sms>
+		<dlr>
+			<received>1694</received>
+			<sent>0</sent>
+			<inbound>0.06,0.05,0.03</inbound>
+			<outbound>0.00,0.00,0.00</outbound>
+		</dlr>
+	</smsc>
+<smsc>
+		<name>SMPP:10.71.128.47:5020/5020:Freesia4:</name>
+		<admin-id>ETISALAT</admin-id>
+		<id>ETISALAT</id>
+		<status>online 2144s</status>
+		<failed>248</failed>
+		<queued>36242</queued>
+		<sms>
+			<received>182</received>
+			<sent>1487</sent>
+			<inbound>0.02,0.00,0.00</inbound>
+			<outbound>0.08,0.05,0.02</outbound>
+		</sms>
+		<dlr>
+			<received>1735</received>
+			<sent>0</sent>
+			<inbound>0.08,0.05,0.03</inbound>
+			<outbound>0.00,0.00,0.00</outbound>
+		</dlr>
+	</smsc>
+<smsc>
+		<name>SMPP:10.71.128.47:5020/5020:Freesia4:</name>
+		<admin-id>ETISALAT</admin-id>
+		<id>ETISALAT</id>
+		<status>online 2144s</status>
+		<failed>235</failed>
+		<queued>36241</queued>
+		<sms>
+			<received>184</received>
+			<sent>1457</sent>
+			<inbound>0.02,0.00,0.00</inbound>
+			<outbound>0.09,0.04,0.02</outbound>
+		</sms>
+		<dlr>
+			<received>1692</received>
+			<sent>0</sent>
+			<inbound>0.09,0.04,0.03</inbound>
+			<outbound>0.00,0.00,0.00</outbound>
+		</dlr>
+	</smsc>
+<smsc>
+		<name>SMPP:10.71.128.47:5020/5020:Freesia4:</name>
+		<admin-id>ETISALAT</admin-id>
+		<id>ETISALAT</id>
+		<status>online 2145s</status>
+		<failed>235</failed>
+		<queued>36249</queued>
+		<sms>
+			<received>183</received>
+			<sent>1462</sent>
+			<inbound>0.02,0.01,0.00</inbound>
+			<outbound>0.06,0.05,0.02</outbound>
+		</sms>
+		<dlr>
+			<received>1697</received>
+			<sent>0</sent>
+			<inbound>0.06,0.05,0.03</inbound>
+			<outbound>0.00,0.00,0.00</outbound>
+		</dlr>
+	</smsc>
+<smsc>
+		<name>SMPP:10.71.128.47:5020/5020:Freesia4:</name>
+		<admin-id>ETISALAT</admin-id>
+		<id>ETISALAT</id>
+		<status>online 2147s</status>
+		<failed>242</failed>
+		<queued>36242</queued>
+		<sms>
+			<received>185</received>
+			<sent>1446</sent>
+			<inbound>0.02,0.01,0.00</inbound>
+			<outbound>0.05,0.05,0.02</outbound>
+		</sms>
+		<dlr>
+			<received>1688</received>
+			<sent>0</sent>
+			<inbound>0.06,0.05,0.03</inbound>
+			<outbound>0.00,0.00,0.00</outbound>
+		</dlr>
+	</smsc>
+<smsc>
+		<name>SMPP:10.71.128.47:5020/5020:Freesia3:</name>
+		<admin-id>ETISALAT_BC</admin-id>
+		<id>ETISALAT_BC</id>
+		<status>online 2142s</status>
+		<failed>37080</failed>
+		<queued>41147</queued>
+		<sms>
+			<received>3107</received>
+			<sent>103144</sent>
+			<inbound>0.13,0.14,0.09</inbound>
+			<outbound>3.61,3.67,3.03</outbound>
+		</sms>
+		<dlr>
+			<received>2371</received>
+			<sent>0</sent>
+			<inbound>0.12,0.17,0.07</inbound>
+			<outbound>0.00,0.00,0.00</outbound>
+		</dlr>
+	</smsc>
+<smsc>
+		<name>SMPP:10.71.128.47:5020/5020:Freesia3:</name>
+		<admin-id>ETISALAT_BC</admin-id>
+		<id>ETISALAT_BC</id>
+		<status>online 2142s</status>
+		<failed>37255</failed>
+		<queued>41147</queued>
+		<sms>
+			<received>3181</received>
+			<sent>103461</sent>
+			<inbound>0.13,0.15,0.09</inbound>
+			<outbound>3.58,3.68,3.04</outbound>
+		</sms>
+		<dlr>
+			<received>2197</received>
+			<sent>0</sent>
+			<inbound>0.11,0.18,0.06</inbound>
+			<outbound>0.00,0.00,0.00</outbound>
+		</dlr>
+	</smsc>
+<smsc>
+		<name>SMPP:10.71.128.47:5020/5020:Freesia3:</name>
+		<admin-id>ETISALAT_BC</admin-id>
+		<id>ETISALAT_BC</id>
+		<status>online 2142s</status>
+		<failed>37675</failed>
+		<queued>41147</queued>
+		<sms>
+			<received>3186</received>
+			<sent>103926</sent>
+			<inbound>0.13,0.13,0.09</inbound>
+			<outbound>3.67,3.62,3.05</outbound>
+		</sms>
+		<dlr>
+			<received>2180</received>
+			<sent>0</sent>
+			<inbound>0.09,0.18,0.06</inbound>
+			<outbound>0.00,0.00,0.00</outbound>
+		</dlr>
+	</smsc>
+<smsc>
+		<name>SMPP:10.71.128.47:5020/5020:Freesia3:</name>
+		<admin-id>ETISALAT_BC</admin-id>
+		<id>ETISALAT_BC</id>
+		<status>online 2142s</status>
+		<failed>36661</failed>
+		<queued>41151</queued>
+		<sms>
+			<received>3092</received>
+			<sent>103154</sent>
+			<inbound>0.14,0.15,0.09</inbound>
+			<outbound>3.82,3.74,3.03</outbound>
+		</sms>
+		<dlr>
+			<received>2191</received>
+			<sent>0</sent>
+			<inbound>0.16,0.18,0.06</inbound>
+			<outbound>0.00,0.00,0.00</outbound>
+		</dlr>
+	</smsc>
+<smsc>
+		<name>SMPP:10.71.128.47:5020/5020:Freesia3:</name>
+		<admin-id>ETISALAT_BC</admin-id>
+		<id>ETISALAT_BC</id>
+		<status>online 2143s</status>
+		<failed>37418</failed>
+		<queued>41147</queued>
+		<sms>
+			<received>3190</received>
+			<sent>105420</sent>
+			<inbound>0.14,0.13,0.09</inbound>
+			<outbound>3.75,3.69,3.09</outbound>
+		</sms>
+		<dlr>
+			<received>2113</received>
+			<sent>0</sent>
+			<inbound>0.10,0.17,0.06</inbound>
+			<outbound>0.00,0.00,0.00</outbound>
+		</dlr>
+	</smsc>
+</smscs>
+</gateway>
